@@ -3,8 +3,14 @@ body {
     text-align: center;
   }
 
-head{
-  background-color: rgb(119, 208, 211);
+  header.page-header {
+    background-color: cadetblue;
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
 }
   
   h1 {
