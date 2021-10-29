@@ -6,6 +6,8 @@ body {
 
   header.page-header {
     padding: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
     background: rgb(81, 116, 182);
     height: 100px;
     align-items: center;
