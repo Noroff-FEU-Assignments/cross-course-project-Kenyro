@@ -1,11 +1,12 @@
 body {
     background-color: rgb(81, 88, 121);
     text-align: center;
+    
   }
 
   header.page-header {
     background-color: cadetblue;
-    display: flex;
+    display: block;
     height: 120px;
     min-width: 120px;
     align-items: center;
