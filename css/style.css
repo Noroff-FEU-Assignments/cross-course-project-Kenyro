@@ -6,7 +6,7 @@ body {
 
   header.page-header {
     padding: 60px;
-    background-color: cadetblue;
+    background: rgb(81, 116, 182);
     height: 120px;
     align-items: center;
     color: #fff;
