@@ -14,15 +14,11 @@ body {
     
 }
 
-header.img-logo
-{
-width: 200px;
+header.img-logo{
+width: 300px;
 }
-  
-  
 
-
-  h1 {
+h1 {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-left: 20px;
