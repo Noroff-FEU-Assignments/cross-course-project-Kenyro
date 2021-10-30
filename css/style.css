@@ -10,7 +10,7 @@ body {
     margin-right: 10px;
     background: rgb(81, 116, 182);
     height: 100px;
-    align-items: center;
+    align-items: baseline;
     color: #fff;
     text-shadow: #000 0 0 .2em;
     
