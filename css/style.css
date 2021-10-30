@@ -5,9 +5,8 @@ body {
   }
 
   header.page-header {
-
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0;
+    padding: 0;
     background: rgb(81, 116, 182);
     height: 120px;
     color: #fff;
