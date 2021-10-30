@@ -6,16 +6,15 @@ body {
 
   header.page-header {
 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     background: rgb(81, 116, 182);
     height: 120px;
-    align-items: baseline;
-    text-align: left;
     color: #fff;
     text-shadow: #000 0 0 .2em;
     
 }
+
 
   h1 {
     text-align: center;
