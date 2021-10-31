@@ -20,6 +20,11 @@ header.page-header {
 
 .homebutton{
   width: 100px;
+  position: relative;
+}
+
+.front-game-img{
+  width: 400px;
 }
 
 h1 {
