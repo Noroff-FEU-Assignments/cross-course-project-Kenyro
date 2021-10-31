@@ -4,20 +4,19 @@ body {
     color: white;
   }
 
-  header.page-header {
-    margin: 0;
-    padding: 0;
-    background: rgb(81, 116, 182);
-    height: 160px;
-    color: #fff;
-    text-shadow: #000 0 0 .2em;
+header.page-header {
+  margin: 0;
+  padding: 0;
+  background: rgb(81, 116, 182);
+  height: 160px;
+  color: #fff;
+  text-shadow: #000 0 0 .2em;
     
 }
-.img-logo{
-width: 200px;
+.img-logo {
+  width: 200px;
 
 }
-
 
 h1 {
     text-align: center;
