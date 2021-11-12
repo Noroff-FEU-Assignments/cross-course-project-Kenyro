@@ -1,12 +1,56 @@
 body {
-    background-color: rgb(81, 94, 121);
+    background-color: rgb(70, 106, 129);
     color: white;
   }
 header{
+  background: rgba(67, 138, 160, 0.795);
   text-align: center;
-  background: rgba(57, 117, 136, 0.795);
 }
-#brand-logo{
+.brand-logo{
   width: 300px;
   margin-top: 20px;
+  margin-left: 450px;
+}
+
+.topnav{
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+}
+
+#cart-icon{
+  width: 40px;
+  float: right;
+  margin-right: 20px;
+}
+#profile-icon{
+  width: 40px;
+  margin-right: 20px;
+  float: right;
+}
+#contact-icon{
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 4px;
+  float: right;
+}
+.allgames-link{
+  color: white;
+  text-align: center;
+}
+
+.games{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#game-placeholder1{
+  width: 500px;
+}
+#game-placeholder2{
+  width: 600px;
+}
+#game-placeholder3{
+  width: 500px;
 }

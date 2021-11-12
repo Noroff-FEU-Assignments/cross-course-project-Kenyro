@@ -5,32 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="GameHub, HTML, CSS">
     <meta name="description" content="A test storefront page for video games, where the purpose is to learn Front-End development.">
-    <link rel="stylesheet" href="css/style-cart.css">
+    <link rel="stylesheet" href="css/style-index.css">
     <title>GameHub</title>
   </head>
   <body>
     <header>
       <hr>
+      <div class="topnav">
+        <input type="text" placeholder="Search..">
+      </div>
       <a href="index.html">
-        <img id="brand-logo" src="images/GameHub_Logo.png" alt="Brand Logo">
+        <img class="brand-logo" src="images/GameHub_Logo.png" alt="Brand Logo">
+      </a>
+      <a href="profile.html"> 
+        <img id="profile-icon" src="images/Icon material-account-circle.png" alt="Profile Icon">
+      </a>
+      <a href="contact.html">
+        <img id="contact-icon" src="images/Icon material-contact-mail.png" alt="Contact Icon">
+      </a>
+      <a href="cart.html">
+        <img id="cart-icon" src="images/Icon awesome-shopping-cart.png" alt="Cart Icon">
       </a>
       <hr>
-      <nav>
-        <a href="profile.html">
-          <img id="profile-icon" src="images/Icon material-account-circle.png" alt="Profile Icon">
-        </a>
-        <a href="cart.html">
-          <img id="cart-icon" src="images/Icon awesome-shopping-cart.png" alt="Cart Icon">
-        </a>
-        <a href="contact.html">
-          <img id="contact-icon" src="images/Icon material-contact-mail.png" alt="Contact Icon">
-        </a>
-          <a href="allgames.html">
-            All Games
-          </a>
-      </nav>
-
     </header>
-    <p>Hello GameHub Users!</p>
+
+    <div class="games">
+      <a href="game.html">
+        <img id="game-placeholder1" src="images/placeholder_image.png" alt="Placeholder image">
+      </a>
+      <a href="game.html">
+        <img id="game-placeholder2" src="images/placeholder_image.png" alt="Placeholder image">
+      </a>
+      <a href="game.html">
+        <img id="game-placeholder3" src="images/placeholder_image.png" alt="Placeholder image">
+      </a>
+    </div>
+
+    <a href="allgames.html">
+      <div class="allgames-link">
+        <h2>View All Games</h2>
+      </div>
+    </a>
+
   </body>
 </html>
