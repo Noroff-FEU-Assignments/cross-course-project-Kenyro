@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(81, 94, 121);
+    color: white;
+  }
+header{
+  text-align: center;
+  background: rgba(57, 117, 136, 0.795);
+}
+#brand-logo{
+  width: 300px;
+  margin-top: 20px;
+}
