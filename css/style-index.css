@@ -1,6 +1,7 @@
 body {
     background-color: rgb(70, 106, 129);
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 header{
   background: rgba(67, 138, 160, 0.795);
@@ -16,6 +17,10 @@ header{
   overflow: hidden;
   float: right;
   margin-right: 20px;
+}
+
+h1{
+  text-align: center;
 }
 
 #cart-icon{
@@ -47,10 +52,12 @@ header{
 
 #game-placeholder1{
   width: 500px;
+  opacity: 0.8;
 }
 #game-placeholder2{
   width: 600px;
 }
 #game-placeholder3{
   width: 500px;
+  opacity: 0.8;
 }
