@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(70, 106, 129);
+  background: rgb(82,178,255);
+  background: radial-gradient(circle, rgba(82,178,255,1) 0%, rgba(49,97,158,1) 100%);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-background: rgba(67, 138, 160, 0.795);
-text-align: center;
+  background: rgb(64, 140, 202);
+  text-align: center;
 }
 .brand-logo{
 width: 300px;
@@ -21,6 +22,10 @@ margin-right: 20px;
 
 h1{
 text-align: center;
+}
+
+h2{
+  text-align: center;
 }
 
 #cart-icon{
@@ -39,25 +44,18 @@ margin-right: 20px;
 margin-top: 4px;
 float: right;
 }
-.allgames-link{
-color: white;
-text-align: center;
+
+.checkoutButton{
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 200px;
 }
 
-.games{
-text-align: center;
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-#game-placeholder1{
-width: 500px;
-opacity: 0.8;
-}
-#game-placeholder2{
-width: 600px;
-}
-#game-placeholder3{
-width: 500px;
-opacity: 0.8;
+h3{
+  text-align: center;
+  margin-top: 200px;
 }

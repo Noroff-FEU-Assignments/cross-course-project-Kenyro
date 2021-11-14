@@ -24,6 +24,10 @@ h1{
 text-align: center;
 }
 
+h2{
+  text-align: center;
+}
+
 #cart-icon{
 width: 40px;
 float: right;
@@ -45,10 +49,9 @@ h1{
   margin-top: 200px;
 }
 
-.contact-form{
-  margin-left: 800px;
-  text-align: left;
-}
-#questionTxtBox{
-  resize: none;
+
+.homebutton{
+  color: white;
+  text-align:center;
+
 }
