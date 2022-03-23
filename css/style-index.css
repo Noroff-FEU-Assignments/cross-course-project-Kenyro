@@ -7,6 +7,7 @@ body {
 header{
   background: rgb(64, 140, 202);
   text-align: center;
+  margin: 0px;
 }
 .brand-logo{
   width: 300px;
@@ -17,7 +18,7 @@ header{
 .topnav{
   overflow: hidden;
   float: right;
-  margin-right: 20px;
+  margin: 0;
 }
 
 h1{
