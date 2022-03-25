@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
     <meta name="keywords" content="GameHub, HTML, CSS">
     <meta name="description" content="A test storefront page for video games, where the purpose is to learn Front-End development.">
-    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/images.css">
+
     <title>GameHub</title>
 
     <!-- Hotjar Tracking Code for https://gamehub-by-kevin.netlify.app/ -->
@@ -22,35 +24,44 @@
   </head>
   <body>
     <header>
-      <hr>
-      <div class="topnav">
-        <input type="text" placeholder="Search...">
+      <div class="header-container">
+        <div class="logo-container">
+          <img class="logo" src="images/GameHub_Logo.png" alt="Logo">
+        </div>
       </div>
-      <a href="index.html">
-        <img class="brand-logo" src="images/GameHub_Logo.png" alt="Brand Logo">
-      </a>
-      <a href="profile.html"> 
-        <img id="profile-icon" src="images/Icon material-account-circle.png" alt="Profile Icon">
-      </a>
-      <a href="contact.html">
-        <img id="contact-icon" src="images/Icon material-contact-mail.png" alt="Contact Icon">
-      </a>
-      <a href="cart.html">
-        <img id="cart-icon" src="images/Icon awesome-shopping-cart.png" alt="Cart Icon">
-      </a>
-      <hr>
     </header>
     <h1>Welcome to GameHub!</h1>
-    <div class="games">
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="game.html">
+          <h2>Minecraft Dungeons</h2>
+          <img id="game-placeholder1" src="images/minecraftdungeons.jpg" alt="Elden Ring">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="game.html">
+          <h2>Minecraft Dungeons</h2>
+          <img id="game-placeholder1" src="images/minecraftdungeons.jpg" alt="Elden Ring">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="game.html">
+          <h2>Minecraft Dungeons</h2>
+          <img id="game-placeholder1" src="images/minecraftdungeons.jpg" alt="Elden Ring">
+        </a>
+      </div>
       <a href="game.html">
-        <img id="game-placeholder1" src="images/minecraftdungeons.jpg" alt="Elden Ring">
-      </a>
-      <a href="game.html">
+        <h2>Elden Ring</h2>
+
         <img id="game-placeholder2" src="images/eldenring.jpg" alt="Minecraft Dungeons">
+
       </a>
       <a href="game.html">
+        <h2>Dying Light 2</h2>
+
         <img id="game-placeholder3" src="images/dyinglight2.jpg" alt="The Witcher 3">
       </a>
+      
     </div>
 
     <a href="allgames.html">
@@ -58,6 +69,8 @@
         <h2>View All Games</h2>
       </div>
     </a>
-
+<footer>
+  <p>Footer</p>
+</footer>
   </body>
 </html>
