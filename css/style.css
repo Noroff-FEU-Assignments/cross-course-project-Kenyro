@@ -29,11 +29,8 @@ footer{
     display: grid;
     grid-template-columns: 500px 500px 500px;
     justify-content: center;
-
 }
 
-.grid-item{
-}
 
 .totalAmount{
     text-align: center;
@@ -47,6 +44,11 @@ footer{
 .contact-us{
     text-align: center;
     font-size: 30px;
+
+}
+
+.gameproduct{
+    margin-bottom: 30px;
 }
 
 .contact{
@@ -55,6 +57,10 @@ footer{
 }
 form{
     margin-left: 600px;
+}
+
+.form-group{
+    margin-bottom: 30px;
 }
 
 .form-group label{
@@ -102,7 +108,19 @@ textarea{
     margin-top: 10px;
     padding: 14px 28px;
     border-radius: 10px;
-    background: rgb(0, 153, 255);
+    background: rgb(39, 85, 122);
+    color: white;
+    border-color: white;
+    
+}
+
+.contactBtn{
+    background: none;
+    font-size: 32px;
+    color: white;
+    border-radius: 10px;
+    border-color: aliceblue;
+    cursor: pointer;
 }
 
 h1{
@@ -110,10 +128,11 @@ h1{
     font-size: 60px;
 }
 
-
 a, a:visited, a:active{
     text-decoration: none;
     color: white;
+    font-size: 30px;
+
 }
 
 a:hover{
