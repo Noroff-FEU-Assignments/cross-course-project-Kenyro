@@ -29,9 +29,15 @@ footer{
     display: grid;
     grid-template-columns: 500px 500px 500px;
     justify-content: center;
+
 }
 
 .grid-item{
+}
+
+.totalAmount{
+    text-align: center;
+    margin: 60px;
 }
 
 .toptext{
@@ -39,13 +45,64 @@ footer{
 }
 
 .contact-us{
-    margin: 30px;
     text-align: center;
+    font-size: 30px;
+}
+
+.contact{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    margin-left: 600px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form-group input, textarea{
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+textarea{
+    width: 700px;
+    height: 300px;
+    resize: none;
+}
+
+.error-hint{
+    color:red;
+}
+
+.submit-button{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.thank-you{
+    font-size: 32px;
+    text-align: center;
+    background: white;
+    color:black;
+    padding: 100px;
 }
 
 .btn-addtocart{
     margin-top: 10px;
     padding: 14px 28px;
+    border-radius: 10px;
+    background: rgb(0, 153, 255);
 }
 
 h1{
