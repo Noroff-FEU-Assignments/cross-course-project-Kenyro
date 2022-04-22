@@ -1,3 +1,4 @@
+/*
 import products from "/js/products.js";
 
 const gameContainer = document.querySelector(".grid-container");
@@ -13,3 +14,22 @@ products.forEach((game) => {
                                 
                                 </div>`;
 });
+
+*/
+const baseUrl = "https://products.kevin-rundberg.one/wp-json/wc/store/products";
+const productContainer = document.querySelector(".grid-container");
+
+async function getProducts(url){
+    const response = await fetch(url);
+    const products = await response.json();
+
+    products.forEach(function(product) {
+        productContainer.innerHTML += `
+        <div class="product"><h2>${product.name}</h2>
+        <div class="product-image" style="background-image:url("${product.images}")</div>
+        </div>`
+    })
+
+}
+
+getProducts(baseUrl);
