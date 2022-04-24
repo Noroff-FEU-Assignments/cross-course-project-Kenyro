@@ -6,7 +6,6 @@
     <meta name="keywords" content="GameHub, HTML, CSS">
     <meta name="description" content="A test storefront page for video games, where the purpose is to learn Front-End development.">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/images.css">
 
     <title>GameHub</title>
   </head>
@@ -14,21 +13,16 @@
     <header>
       <div class="header-container">
         <div class="logo-container">
-          <img class="logo" src="images/GameHub_Logo.png" alt="Logo">
+          <a href="index.html">
+            <img class="logo" src="images/GameHub_Logo.png" alt="Logo">
+          </a>
         </div>
       </div>
     </header>
     <h2>Pre-order Today!</h2>
 
-    <div class="game">
-      <a href="game.html">
-        <img id="game-placeholder2" src="images/placeholder_image.png" alt="Placeholder image">
-      </a>
-        <h3>Game Description</h3>
-        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quasi sunt voluptate magnam incidunt. 
-          Odit ratione dignissimos dolores reiciendis qui. 
-          Molestias harum eligendi unde sint impedit quaerat fuga quos nesciunt.</h4>
-    </div>
+    <div class="game-product"></div>
+    <script src="/js/product-details.js" type="module"></script>
 
   </body>
 </html>

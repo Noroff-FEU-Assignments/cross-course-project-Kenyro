@@ -1,9 +1,9 @@
-/*
-import products from "/js/products.js";
 
+import local_products from "/js/products.js";
+/*
 const gameContainer = document.querySelector(".grid-container");
 
-products.forEach((game) => {
+local_products.forEach((game) => {
     gameContainer.innerHTML += `<div class="gameproduct">
                                 <a href="game.html"
                                 <h2>${game.name}</h2> 
@@ -25,11 +25,14 @@ async function getProducts(url){
 
     products.forEach(function(product) {
         productContainer.innerHTML += `
+        <a href="game.html?id=${product.id}">
         <div class="product"><h2>${product.name}</h2>
+        <img class="product-image" src="${product.images[0].src}"</div>
         
-        <div class="product-image" style="background-image:url('${product.images[0].src}')>
-        
+        <p>${product.price_html}</p>
+
         </div>`
+        
     })
 
 }
