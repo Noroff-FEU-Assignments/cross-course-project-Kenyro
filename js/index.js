@@ -23,6 +23,8 @@ async function getProducts(url){
     const response = await fetch(url);
     const products = await response.json();
 
+    
+
     products.forEach(function(product) {
         productContainer.innerHTML += `
         <a href="game.html?id=${product.id}">
