@@ -1,5 +1,6 @@
 body{
-    background: rgb(30, 53, 73);
+    background: rgb(30,53,73);
+    background: linear-gradient(0deg, rgba(30,53,73,1) 0%, rgba(13,68,69,1) 50%, rgba(30,53,73,1) 100%);
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -7,10 +8,17 @@ body{
 
 hr{
     width: 100%;
+    
+}
+
+.divider{
+    width: 100%;
+    border-color: black;
 }
 
 header, footer{
-    background: rgb(39, 85, 122);
+    background: rgb(30,53,73);
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -43,7 +51,15 @@ footer{
     display: grid;
     grid-template-columns: 500px 500px 500px;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
+}
+
+.title-games{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .product-image{
@@ -58,11 +74,15 @@ footer{
 
 .toptext{
     text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .contact-us{
     text-align: center;
     font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -137,9 +157,12 @@ textarea{
     background: none;
     font-size: 32px;
     color: white;
-    border-radius: 10px;
-    border-color: aliceblue;
     cursor: pointer;
+    border: none;
+}
+
+.contactBtn:hover{
+    color: gray;
 }
 
 
@@ -171,7 +194,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgb(39, 85, 122);
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -197,7 +219,6 @@ ul {
   }
   
   li a:hover {
-    background: rgb(39, 85, 122);
     transform: scale(1.2)
 
   }
