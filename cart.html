@@ -9,24 +9,60 @@
     <link rel="stylesheet" href="css/images.css">
 
     <title>GameHub</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="logo-container">
-          <img class="logo" src="images/GameHub_Logo.png" alt="Logo">
+    <!-- Hotjar Tracking Code for https://gamehub-by-kevin.netlify.app/ -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2889667,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <script src="/js/cart.js" async></script>
+
+      </head>
+      <body>
+        <header>
+          <div class="header-container">
+            <div class="logo-container">
+              <a href="index.html">
+                <img class="logo" src="images/GameHub_Logo.png" alt="Logo">
+    
+              </a>
+            </div>
+            <hr>
+            <nav>
+              <ul>
+                <li><a href="index.html">Store</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="cart.html">Cart</a></li>
+    
+                
+    
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="cart-page">
+          <h1>Cart</h1>
+          <h2>Your cart is empty</h2>
+          
+          <div class="shop-item">
+            
+          </div>
+
+          <div class="checkoutButton">
+            <a href="checkout.html">
+              <button class="checkout" type="button">Checkout</button>
+              <script src="js/cart.js"></script>
+            </a>
+          </div>
+      
         </div>
-      </div>
-    </header>
-    <h2>Cart</h2>
-    <h3>Your cart is empty</h3>
-
-    <div class="checkoutButton">
-      <a href="checkout.html">
-        <button type="button">Checkout</button>
-        <script src="js/cart.js"></script>
-      </a>
-    </div>
-
+   
   </body>
 </html>
