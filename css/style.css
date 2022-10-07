@@ -51,9 +51,10 @@ footer{
     display: grid;
     grid-template-columns: 500px 500px 500px;
     justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 30px;
 }
 
 .price-and-shop{
@@ -265,4 +266,9 @@ ul {
     text-transform: uppercase;
     background-color: gray;
     color: white;
+  }
+
+  .cart-img{
+    font-size: 40px;
+    margin: 0;
   }

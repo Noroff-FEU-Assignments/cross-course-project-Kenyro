@@ -26,9 +26,12 @@ async function fetchProduct(){
 fetchProduct();
 
 function createHtml(productDetails){
-    productDetailContainer.innerHTML = `<div class="product-title">
-                                                <h1>${productDetails[0].name}</h1>
-                                                
-                                                </div>`
 
+    for(let i = 0; i < productDetails.length; i++){
+        productDetailContainer.innerHTML = `<div class="product-title">
+        <h1>${productDetails[i].name}</h1>
+        
+        </div>`
+    }
+    
 }
