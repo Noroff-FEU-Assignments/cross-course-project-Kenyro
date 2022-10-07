@@ -7,7 +7,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const apiUrl = "https://products.kevin-rundberg.one/wp-json/wc/store/products";
+const apiUrl = "https://products.kevin-rundberg.one/wp-json/wc/store/products/" + id;
 
 
 console.log(id);
@@ -27,11 +27,18 @@ fetchProduct();
 
 function createHtml(productDetails){
 
-    for(let i = 0; i < productDetails.length; i++){
         productDetailContainer.innerHTML = `<div class="product-title">
-        <h1>${productDetails[i].name}</h1>
-        
-        </div>`
-    }
+                                            <h1>${productDetails.name}</h1>
+                                            <img class="product-image" src="${productDetails.images[0].src}">
+                                            <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                                            ever since the 1500s, when an unknown printer took a galley of type 
+                                            and scrambled it to make a type specimen book. 
+                                            It has survived not only five centuries, but also the leap into electronic 
+                                            typesetting, remaining essentially unchanged. 
+                                            It was popularised in the 1960s with the release of Letraset sheets containing 
+                                            Lorem Ipsum passages, and more recently with desktop publishing software like 
+                                            Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            </div>`
     
 }

@@ -18,7 +18,6 @@ hr{
 
 header, footer{
     background: rgb(30,53,73);
-
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,8 +60,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10px;
-    margin: 30px;
+    float: left;
 }
 
 .add-btn{
@@ -107,8 +105,16 @@ footer{
 
 }
 
-.gameproduct{
+.game-product{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact{
@@ -207,6 +213,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 ul {
@@ -271,4 +278,32 @@ ul {
   .cart-img{
     font-size: 40px;
     margin: 0;
+  }
+
+  .shop-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+  }
+
+  .desc{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .pre-order{
+    text-align: center;
+  }
+
+  .product-image{
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
   }

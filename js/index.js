@@ -11,12 +11,12 @@ async function getProducts(url){
         productContainer.innerHTML += `
         <a href="game.html?id=${product.id}">
         <div class="product"><h2>${product.name}</h2>
-        <img class="product-image" src="${product.images[0].src}"</div>
+        <img class="product-image-src" src="${product.images[0].src}">
+        </div>
         <div class="price-and-shop">
         <p class="price">${product.price_html}</p>
-        <button class="add-btn" type="button">Add to Cart</button>
         </div>
-        </div>`
+        </a>`
         
     })
 
