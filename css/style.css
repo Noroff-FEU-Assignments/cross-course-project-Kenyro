@@ -21,6 +21,7 @@ header, footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: auto;
     box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.5);
 }
 
@@ -28,6 +29,7 @@ header, footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: auto;
     gap: 50px;
 }
 .logo-container{
@@ -63,12 +65,7 @@ footer{
     float: left;
 }
 
-.add-btn{
-    width: 200px;
-    color: white;
-    background-color: gray;
-    text-transform: uppercase;
-}
+
 
 .price{
     text-transform: uppercase;
@@ -102,17 +99,6 @@ footer{
 
 }
 
-.game-product{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.product-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .contact{
     font-size: 30px;
@@ -277,7 +263,7 @@ ul {
     margin: 0;
   }
 
-  .shop-item{
+  .shop-product{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -300,5 +286,42 @@ ul {
   }
 
   .product-image{
+    width: 50%;
+    margin: auto;
     box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.5);
   }
+
+  .game-product{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: gray;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn:hover{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    cursor: pointer;
+}
+
+.price-tag{
+    display: flex;
+    justify-content: center;
+}
+
+.product-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
