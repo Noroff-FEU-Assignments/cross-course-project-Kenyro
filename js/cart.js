@@ -6,14 +6,15 @@ if(document.readyState == 'loading'){
 
 
 function ready(){
-    const remove_Button = document.querySelector(".remove-btn");
-
-    remove_Button.addEventListener("click", removeFromCart);
+    
 
     function removeFromCart(){
         console.log("Removed")
         var removeButtonClicked = event.target;
         removeButtonClicked.parentElement.remove();
+        localStorage.clear();
+        productContainer.innerHTML += "Your Cart is Empty";
+
     }
 
     const storedProduct = JSON.parse(localStorage.getItem("productDetails"));
@@ -21,7 +22,7 @@ function ready(){
     console.log(storedProduct);
     const productContainer = document.querySelector(".products-container");
 
-    productContainer.innerHTML = `
+    productContainer.innerHTML += `
                                     <div class="shop-product">
                                         <h2 class="shop-title">${storedProduct.name}</h2>
                                         <img class="shop-image" src="${storedProduct.images[0].src}">
@@ -30,5 +31,7 @@ function ready(){
                                     </div>
 
     `
+    const remove_Button = document.querySelector(".remove-btn");
 
+    remove_Button.addEventListener("click", removeFromCart);
 }
