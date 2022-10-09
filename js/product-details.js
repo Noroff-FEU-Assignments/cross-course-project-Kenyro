@@ -49,23 +49,15 @@ function createHtml(productDetails){
 
 const add_Button = document.querySelector(".btn");
 
-const productTitle = document.querySelector(".title");
-const productImage = document.querySelector(".product-image");
-const productPrice = document.querySelector(".price-tag");
 
-productTitle.innerHTML = `
-`
+function saveToLocalStorage(productDetails){
+    localStorage.setItem('productDetails', JSON.stringify(productDetails));
+    console.log(productDetails);
+}    
 
-const productData = {
-    
+function goToCart(){
+    document.location.href = "cart.html";
 }
 
 
-function saveToLocalStorage(productDetails){
-    localStorage.setItem('productDetails', JSON.stringify(productData));
-
-}    
-
-
-
-add_Button.addEventListener("click", saveToLocalStorage);
+add_Button.addEventListener("click", goToCart);
